@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+[CreateAssetMenu(menuName = "Inventory/MonoBehaviour")]
 public class RecipeSlot : MonoBehaviour {
     
     [SerializeField] private Recipe recipe;
